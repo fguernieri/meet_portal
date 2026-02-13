@@ -1,0 +1,26 @@
+{
+	"name": "meet_portal",
+	"version": "0.1.0",
+	"description": "Nextcloud MEET client portal",
+	"private": true,
+	"scripts": {
+		"build": "webpack --mode production",
+		"watch": "webpack --mode development --watch"
+	},
+	"dependencies": {
+		"@nextcloud/axios": "^2.6.0",
+		"@nextcloud/router": "^3.0.0",
+		"vue": "^3.5.0"
+	},
+	"devDependencies": {
+		"@nextcloud/webpack-vue-config": "^8.0.0",
+		"css-loader": "^7.1.2",
+		"sass": "^1.90.0",
+		"sass-loader": "^16.0.5",
+		"style-loader": "^4.0.0",
+		"vue-loader": "^17.4.2",
+		"webpack": "^5.97.1",
+		"webpack-cli": "^6.0.1",
+		"webpack-merge": "^6.0.1"
+	}
+}

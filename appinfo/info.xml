@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info>
+	<id>meet_portal</id>
+	<name>MEET Portal</name>
+	<summary>Client portal for MEET consulting workflow</summary>
+	<description>Dynamic client portal for MEET phases, tasks, files, and project progress.</description>
+	<version>0.1.0</version>
+	<licence>agpl</licence>
+	<namespace>MeetPortal</namespace>
+	<category>integration</category>
+	<dependencies>
+		<nextcloud min-version="29" max-version="31"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>meet_portal</id>
+			<name>MEET Portal</name>
+			<route>meet_portal.page.index</route>
+			<icon>core/actions/user.svg</icon>
+			<order>50</order>
+		</navigation>
+	</navigations>
+</info>
