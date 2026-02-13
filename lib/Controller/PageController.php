@@ -24,6 +24,7 @@ class PageController extends Controller {
 
 	/**
 	 * @NoAdminRequired
+	 * @NoCSRFRequired
 	 */
 	public function index(): TemplateResponse {
 		return new TemplateResponse($this->appName, 'main');
